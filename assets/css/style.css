@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+    color: red;
+
+}
+
+a:hover {
+    color:green;
+}
+
+/*-- Andy Mendez*/
+.header{
+    height: 100px;
+    display: block;
+    background-color:#ffffff;
+    font-family: 'Georgia','Times New Roman', Times, serif;
+}
+/* Making everything center*/
+body{
+    text-align: center;
+    margin: 0px;
+    background-color:#dddddd;
+}
+/* Putting Andymendez on the right spot--*/
+header h1{
+    color:white;
+    background-color:#4aaaa5;
+    float: left;
+    margin:0;
+    font-size:50px;
+    height: 100px;
+    position: absolute;
+    left:18.5%;
+    line-height:2em;
+}
+
+/*-- quickfix--*/
+header::after{
+	content:"";
+	display: block;
+	clear:both;
+}  
+
+/*--navigation bar--*/
+nav{
+    float: right;
+}
+nav ul{
+    margin: 10;
+    padding:0; 
+    list-style:none;
+    position: absolute;
+    right:20%;
+}
+
+nav li{
+    float:left;
+    margin-left: 70px;
+    font-size: 25px;
+    
+}
+
+/* -- Main paragraph --*/
+.bio{
+    background-color:#ffffff;
+    max-width: 960px;
+    margin:auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica , sans-serif;
+}
+/*-- About me --*/
+.title {
+    text-align:left;
+    border-bottom: solid;
+    border-bottom-color: #cccccc;
+    padding:20px;
+    color:#4aaaa5;
+    font-size: 250%;
+}
+/*-- img --*/
+img{
+    float: left;
+}
+/*-- fixing line height and size in paragraph--*/
+p{
+    font-size:25px;
+    line-height: 1.6;
+    margin-left:20px;
+}
+
+/* Footer */
+
+footer{
+    
+    background-color:#666666;
+    padding: 24px 0px;
+}
